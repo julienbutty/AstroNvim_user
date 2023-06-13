@@ -20,6 +20,10 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "prettier",
         -- "stylua",
+        "vue-language-server",
+        "phpactor",
+        "custom-elements-languageserver",
+        "eslint-lsp",
       })
     end,
   },
